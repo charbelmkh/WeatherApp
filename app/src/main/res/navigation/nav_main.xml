@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/weather_list">
+
+    <fragment
+        android:id="@+id/weather_list"
+        android:name="com.domain.weatherapp.ui.fragments.WeatherListFragment"
+
+        tools:layout="@layout/recyler_view">
+
+        <action
+            android:id="@+id/action_list_to_forecast"
+            app:destination="@id/forecast_fragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/forecast_fragment"
+        android:name="com.domain.weatherapp.ui.fragments.WeatherForecastFragment"
+        tools:layout="@layout/fragment_detail">
+
+        <argument
+            android:name="weather"
+            app:argType="com.domain.weatherapp.weather.data.model.WeatherModel" />
+
+
+    </fragment>
+
+
+</navigation>

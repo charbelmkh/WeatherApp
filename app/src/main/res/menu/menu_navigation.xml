@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_gps"
+        android:id="@+id/locateMe"
+        android:orderInCategory="2"
+        android:title="Locate Me"
+        myapp:showAsAction="always" />
+
+
+</menu>

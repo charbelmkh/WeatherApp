@@ -1,0 +1,43 @@
+{
+  "coord": {
+    "lon": 35.49,
+    "lat": 33.89
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 7.59,
+    "feels_like": 0.89,
+    "temp_min": -0.56,
+    "temp_max": 13,
+    "pressure": 1019,
+    "humidity": 58
+  },
+  "visibility": 7000,
+  "wind": {
+    "speed": 6.7,
+    "deg": 20
+  },
+  "clouds": {
+    "all": 75
+  },
+  "dt": 1579614966,
+  "sys": {
+    "type": 1,
+    "id": 7532,
+    "country": "LB",
+    "sunrise": 1579581678,
+    "sunset": 1579618596
+  },
+  "timezone": 7200,
+  "id": 276781,
+  "name": "Beirut",
+  "cod": 200
+}
